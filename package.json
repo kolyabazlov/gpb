@@ -1,0 +1,27 @@
+{
+  "name": "gpb",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chardet": "^1.4.0",
+    "csv-write-stream": "^2.0.0",
+    "express": "^4.17.2",
+    "fast-csv": "^4.3.6",
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "full-icu": "^1.4.0",
+    "iconv": "^3.0.1",
+    "iconv-lite": "^0.6.3",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.15",
+    "npm": "^8.4.1"
+  }
+}
