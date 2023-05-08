@@ -1,20 +1,16 @@
-## CSV proceed
+### CSV proceed - custom file processing service.
 
-Веб-страница - пользовательский сервис по обработке файлов.
+#### Task
 
-### Задача
+- Input: 2 csv files.
 
-- **Передается:** 2-а файла csv.  
- 
-- **Обработка:** Если математическая операция (+,-,*,/) в переданных файлах совпадает - необходимо её выполнить с соответствующими числами и результат сохранить в третьем файле.  
+- Processing: If the mathematical operation ```(+,-,*,/)``` in the input files matches, perform the operation with the corresponding numbers and save the result in a third file.
 
-- **Результат:** результирующий файл csv + выведена статистика обработки  
+- Output: The resulting csv file and processing statistics are displayed.
 
-- **Формат:** Файлы имеют формат: <число>;<математическая операция>   
+- Format: The files have the format: ```<number>;<mathematical operation>```
 
-- **Обработка:** Если математическая операция (+,-,*,/) в переданных файлах совпадает - необходимо её выполнить с соответствующими числами и результат сохранить в третьем файле.
-
-### Для запуска
+#### To run
 
 ```
 npm install  
